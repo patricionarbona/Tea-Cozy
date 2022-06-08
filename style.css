@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+  
+}
+
+h2 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header ul {
+  margin-right: 10px;
+}
+
+header ul li {
+  display: inline-flex;
+}
+
+#mission {
+  position: relative;
+  top: 69px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+#mission-background {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1x9xqxn*_ga*NDYyOTA5NDc2LjE2NTI5OTk4NzI.*_ga_3LRZM6TM9L*MTY1NDY3NjkyOC4zNDEuMC4xNjU0Njc2OTI4LjYw");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission-text {
+  width: 100%;
+  background-color: black;
+}
+
+#teamonth {
+  display: flex;
+  justify-content: center;
+}
+
+#teamonth-container {
+  width: 1000px;
+}
+
+#teamonth img{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+#teamonth-image {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#location {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#location-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*gyytr9*_ga*NDYyOTA5NDc2LjE2NTI5OTk4NzI.*_ga_3LRZM6TM9L*MTY1NDY3NjkyOC4zNDEuMC4xNjU0Njc2OTI4LjYw");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#location-text {
+  background-color: transparent;
+}
+
+#location-boxes {
+  width: 1000px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box h3,.box h4 {
+  margin: 15px;
+}
+
+#contact {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer  h5{
+  margin: 20px;
+  text-align: left;
+}
